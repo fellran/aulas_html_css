@@ -2,8 +2,62 @@ main{
     width: 100%;
 }
 
-section{
-    width: 100%;
+#artigos{
+    width: 80%;
     height: 800px;
-    background-color: aquamarine;
+    background-color: white;
+    border: 3px solid black;
+    margin: 10px 100px;
+    border-radius: 20px;
+    box-shadow: rgb(54, 63, 23);
+}
+
+.post{
+    width: 100%;
+    height: 780px;
+    margin: 10px 3px;
+
+}
+
+#titulopost{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.postimagem{
+    width: 40%;
+    height: 200px;
+
+}
+
+.postimagem img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin: 20px 5px;
+}
+
+h4{
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.posttexto{
+    width: 50%;
+    height: 200px;
+    float: right;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.postconteudo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
 }
