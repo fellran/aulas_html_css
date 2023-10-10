@@ -1,0 +1,51 @@
+main{
+    width: 100%;
+}
+
+#artigos{
+    width: 80%;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border: 2px solid green;
+}
+
+.post{
+    width: 100%;
+    height: 250px;
+    margin: 10px 0px;
+ 
+}
+
+.postimagem{
+    width: 50%;
+    height: 100%;
+    float: left; 
+    background-color:black; 
+}
+
+.postimagem img{
+    width: 100%;
+    height: 100%;
+    opacity: 10%;
+}
+
+.posttexto{
+    width: 50%;
+    height: 100%;
+    float: right ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(179, 9, 9);
+}
+
+.posttexto p{
+    margin: 0px 10px;
+    color:rgb(0, 0, 0);
+}
+
+h3{
+    text-align: center;
+    color:green ;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
