@@ -37,12 +37,92 @@ nav a{
 #banner1{
     width: 40%;
     height: 100%;
-    background-color:blueviolet;
+}
+
+#banner1 img{
+    width:100%;
+    height:100%;
 }
 
 #banner2{
     width: 60%;
     height: 100%;
-    background-color: blue;
 }
 
+#banner2 img{
+    width:100%;
+    height: 100%;
+}
+
+#rodapeimagem{
+    width: 100%;
+    height: 30px;
+    background-color:#e8e6e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#post1{
+    width: 100%;
+    height: auto;
+    background-color:#e8e6e6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#titulopost1{
+    width: 70%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+
+#posttexto{
+    width: 100%;
+    height: auto;
+    background-color:#e8e6e6;
+    margin-top: 9px;
+    color:black;
+}
+
+#post2{
+    width: 30%;
+    height: auto;
+    background-color:#e8e6e6;
+    color: black;
+}
+
+#agenda{
+    color:white;
+}
+
+#titulopost2{
+    width: 100%;
+    height: 30px;
+    background-color:black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#postexto2{
+    width: 100%;
+    height: auto;
+    background-color:#e8e6e6;
+    flex-direction: right;
+}
+
+#mapa{
+    width: 80%;
+    height: 200px;
+    background-color:white;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+}
