@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:rgba(127, 255, 212, 0.26);
+    margin-top: 100px;
+}
+
+#container {
+    width: 500px;
+    height: 500px;
+    background-color: #fdfef0;
+    display: flex;
+    flex-direction: row;
+}
+
+#cardapio {
+    width: 400px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#precos {
+    width: 100px;
+    height: 370px;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+h1{
+    text-align: center;
+}
