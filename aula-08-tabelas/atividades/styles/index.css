@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table, th, td, caption{
+    width: 600px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+table{
+    background-color: #C7E7F3;
+    border: none;
+}
+
+caption{
+    background-color: #0D5188;
+    color: white;
+    border: none;
+}
+
+th{
+    background-color: #66C5E3;
+    border: none;
+}
+
+.cor-cinza{
+    background-color: silver;
+    border: none;
+    text-align: center;
+}
+
+.azul-escuro{
+    border: none;
+    color: #0D5188;
+}
+
+.pop{
+    border: none;
+}

@@ -1,0 +1,17 @@
+ table, th, td, caption{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td:nth-child(even), th:nth-child(even){
+    background-color:#00800063;
+    color: white;
+}
+
+tr:nth-child(odd){
+    background-color: #00800063;
+}
+
+td:hover{
+    background-color: red;
+}
