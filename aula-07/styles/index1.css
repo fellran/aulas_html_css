@@ -6,22 +6,62 @@
 #pagina{
     display: flex;
     flex-direction: column;
+    width: 600px;
+    height: auto;
+    background-color: #f7d8d5;
 }
 
 #caixa-acima{
     width: 300px;
     height: 100px;
-    background-color: aqua;
-    margin-left: 100px;
+    background-color: #ffcac4;
+    margin-left: 140px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #conteudo{
-    width: 500px;
+    width: 400px;
     height: auto;
-    background-color:brown;
+    background-color:white;
+    margin-left:40px;
+    padding-left: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
+
+#conteudo ul{
+    list-style: none;
+    padding: 0;
+}
+
+#precos ul{
+    list-style: none;
+    padding: 0;
+    text-align: right;
+    width: 50px;
+    height: auto;
+    padding-right: 20px;
+}
+
+#listas {
+    display: flex;
+    justify-content: space-between;
+
+  }
 
 h1{
     text-align: center;
+}
+
+#caixa-abaixo{
+    width: 300px;
+    height: 100px;
+    background-color: #ffcac4;
+    margin-left: 140px;
 }
 
