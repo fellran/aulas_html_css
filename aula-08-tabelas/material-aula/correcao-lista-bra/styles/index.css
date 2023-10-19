@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --azul-escuro: #003366;
+    --aul-claro: #1398be;
+    --laraja: #de9800;
+    --borda-principal: #dddddd;
+    --cinza: #cccccc;
+    --vermelho: #c91b04;
+    --titulos: #999999;
+    --times: #666666;
+    --legendas: #8f8f8f;
+    --siglas: #555555;
+    --fundo-tabela: #f7f7f7;
+
+    --posicao: 10px;
+    --titulos: 13px;
+    --nome-time:14px;
+    --pontos: 14px;
+    --coluna: 14px;
+    --siglas-legenda: 10px;
+}
+
+.posicao{
+    font-size: var(--posicao);
+}
+
+:nth-child(2){
+    font-size: var(--nome-time);
+}
+
+td:nth-child(n+3){
+    font-size: 14px;
+}
+
+table{
+    color: var(--times);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+th{
+    color: var(--titulos);
+}
+
+table, td, tr{
+    border: 1px solid var(--borda-principal);
+    border-collapse: collapse;
+}
+
+.libertadores{
+    color: var(--azul-escuro);
+}
+
+.pre-libertadores{
+    color: var(--aul-claro);
+}
+
+.sulamericana{
+    color: var(--laraja);
+}
+
+.nao-classificados{
+    color: var(--cinza);
+}
+
+.lanterna{
+    color: var(--vermelho);
+}
+
+td:nth-child(-n+3){
+    font-weight: 700;
+    background-color: white;
+}
+
+td:nth-child(2n+3){
+    background-color: var(--fundo-tabela);
+}
+
+.quadrado{
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin: 0px 5px;
+}
+
+#liberdadores{
+    background-color: var(--azul-escuro);
+}
+
+#pre-libertadores{
+    background-color: var(--aul-claro);
+}
+
+#sulamericana{
+    background-color: var(--laraja);
+}
+#rebaixado{
+    background-color: var(--vermelho);
+}
+
+article{
+    display: flex;
+    padding: 5px;
+}
+
+.legenda > p {
+    font-size: var(--siglas-legenda);
+}
+
+.legenda{
+    display: flex;
+}

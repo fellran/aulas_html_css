@@ -18,6 +18,11 @@ table{
     height: 505px;
 }
 
+tr:nth-child(4), tr:nth-child(17){
+    border-bottom: 2px solid #99999973;
+}
+
+
 th{
     border: none;
     color: #999999;
@@ -28,36 +33,42 @@ th{
     color: #003366;
     font-size: 18px;
     text-align: center;
+    border-right: none;
 }
 
 #azul-claro{
     color: #1398BE;
     font-size: 18px;
     text-align: center;
+    border-right: none;
 }
 
 .cor-laranja{
     color: #DE9800;
     font-size: 18px;
     text-align: center;
+    border-right: none;
 }
 
 .cor-cinza{
     color: #CCCCCC;
     font-size: 18px;
     text-align: center;
+    border-right: none;
 }
 
 .cor-vermelho{
     color: #C91B04;
     font-size: 18px;
     text-align: center;
+    border-right: none;
 }
 
 .style-nome{
-    color: #666666;
+    color: #666666d2;
     font-size: 14px;
     font-weight: bold;
+    border-left: none;
 }
 
 td:nth-child(3){
