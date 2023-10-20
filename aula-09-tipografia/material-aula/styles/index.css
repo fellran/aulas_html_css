@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+@font-face {
+    font-family: 'barbie';
+    src: url(../fontes/Barbie.otf)
+}
+
+h1{
+    font-family: barbie;
+    /* font-family: 'inter', sans-serif; */
+    letter-spacing: 10px;
+    /**/
+    /* text-decoration: line-through; */
+    /* text-decoration-color: aqua;
+    text-decoration-style: wavy; */
+    text-shadow: 5px 5px 5px red;
+    /*coloca uma sombra no texto*/
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    /*coloca um espaço entre as linhas*/
+    word-spacing: 5px;
+    /*coloca um espaço entre as palavras*/
+    text-indent: 25px;
+    /*coloca um espanço no inicio do paragrafo*/
+    font-style: italic;
+    /*musa os estilo da fonte*/
+}
+
+li{
+    text-transform: uppercase;
+    /*tranforma a fonte */
+    font-weight: bold;
+    /*peso da fontes*/
+}
+
+.quadrado{
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(45deg ,purple 10%, pink );
+}
