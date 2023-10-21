@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "ranges";
+    src: url(../fonts/Power\ Rangers.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ranges;
+}
+
+header{
+    width: 100%;
+    height: 71px;
+    background-color: #D9043D;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 100px;
+    height: 60px;
+    margin-left: 50px;
+    /* overflow: hidden; */
+}
+
+#logo img{
+    width: 100%;
+    border-radius: 40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: ranges;
+    color: white;
+    font-size: 19px;
+    margin: 0px 9px;
+    letter-spacing: 3px;
+    
+}
+
+#home-roxo{
+    color: #3C186D;
+}
+
+#container{
+    width: 100%;
+    height: 600px;
+    background-color: #d9043d;
+    background-image: linear-gradient(180deg, #d9043d 0%, #d9078f 22%, #f205cb 49%, #04d9c4 75%, #d3d932 100%);    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#post{
+    width: 500px;
+    height: 300px;
+}
+
+#post img{
+    width: 100%;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.603) 4px 4px;
+}
+
+#conteudo{
+    width: 500px;
+    height: 300px;
+    background-color: #f2c12e34;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.603) 4px 4px;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #d3d932;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+p{
+    letter-spacing: 2px;
+}
+
+h1{
+    letter-spacing: 3px;
+}
+
+
