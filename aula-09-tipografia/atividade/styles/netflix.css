@@ -1,0 +1,80 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+body{
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+}
+
+#logo{
+    width: 150px;
+}
+
+#container{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url(https://assets.nflxext.com/ffe/siteui/vlv3/ab180a27-b661-44d7-a6d9-940cb32f2f4a/8ccb0ade-2be3-4efb-88f9-5bf81cb88722/BR-pt-20231009-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 700px;
+    background-size: cover;
+    padding: 40px;
+}
+
+#header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin: 0px 15px;
+}
+
+select{
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.301);
+    background-image: url(../images/logo.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-right: 10px;
+}
+
+#btn-enter{
+    padding: 7px 15px;
+    font-size: 14px; 
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    margin: 15px;
+}
+
+#main{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+#tittle-main{
+    font-size: 62px;
+    font-weight: 800px;
+}
+
+h3{
+    font-weight: 400px;
+    margin-top: 40px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+}
+
+#input{
+    width: 350px;
+    height: 50px;
+}
+
+#navegacao a{
+    font-family: 'Circular Std', sans-serif;
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+}
