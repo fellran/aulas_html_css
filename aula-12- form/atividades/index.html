@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="../atividades/styles/index.css">
+</head>
+<body>
+    <h1>Curriculo</h1>
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" placeholder="Digite seu nome" autocomplete="cc-name">
+            </div>
+
+            <div>
+                <label for="ilinkedin">Linkedin</label>
+                <input type="text" name="linkedin" id="ilinkedin" placeholder="link seu linkedin" autocomplete="name">
+            </div>
+
+            <div id="">
+                <label for="ienderco">Endereço:</label>
+                <input type="text" name="endereco" id="iendereco" placeholder="Digite seu Endereço" autocomplete="address-level1">
+
+                <label for="ibairro">Bairro:</label>
+                <input type="text" name="bairro" id="ibairro" autocomplete="name">
+            </div>
+
+            <div>
+                <label for="icidade">Cidade:</label>
+                <input type="text" name="cidade" id="icaidade" placeholder="digite sua cidade" autocomplete="name">
+
+                <label for="iuf">UF:</label>
+                <input type="text" name="uf" id="iuf" placeholder="Unidade Federativa" autocomplete="name">
+            </div>
+
+            <div>
+                <label for="ifone">Fone:</label>
+                <input type="tel" name="fone" id="ifone" placeholder="(XX) xxxx-xxx" autocomplete="tel">
+
+                <label for="icelular">Celular:</label>
+                <input type="tel" name="celular" id="icelular" placeholder="(xx) xxxx-xxx" autocomplete="tel"> 
+            </div>
+
+            <div>
+                <label for="idt_nascimento">Data nascimento:</label>
+                <input type="date" name="dt-nascimento" id="idt-nascimneto" placeholder="dd/mm/yyyy" autocomplete="address-level1">
+
+                <label for="iidade">Idade:</label>
+                <input type="number" name="idade" id="iidade" placeholder="digite sua idade" autocomplete="cc-number">
+            </div>
+
+            <div>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="iemail" placeholder="digite seu email" autocomplete="date">
+            </div>
+
+            <div>
+                <label for="icpf">CPF:</label>
+                <input type="number" name="cpf" id="icpf" placeholder="digite seu cpf" autocomplete="cc-number">
+
+                <label for="irg">RG:</label>
+                <input type="number" name="rg" id="irg" placeholder="digite seu rg" autocomplete="cc-number">
+            </div>
+        </fieldset>
+
+        <div id="part-baixo">
+            <div>
+                <label for="iobjetivo" class="style-text">Objetivo</label>
+                <textarea name="" id="iobjetivo" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <label for="icurso" class="style-text">Cursos Profissionalizante</label>
+                <textarea type="text" name="curso" id="icurso" placeholder="" autocomplete="name"></textarea>
+            </div>
+            <div>
+                <label for="iexperiencia" class="style-text">Experiencia</label>
+                <textarea name="experiencia" id="iexperiencia" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

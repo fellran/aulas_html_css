@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario-2</title>
+    <link rel="stylesheet" href="../material-aula/styles/index.css">
+</head>
+
+<body>
+    <!---action é o direcionamento para onde o form vai-->
+    <!-- method é como e vai manipular os dados o get e pela a url e o post e pelo pacote de rede -->
+    <!-- autocomplete salva os dados quando a pagina carrega -->
+    <!-- regex filtra dados em um texto-->
+    <!-- fieldset cria um capo um volta de uma area -->
+    <!-- legend serve para acessibilidade da um nome ao campo feito pelo fieldset -->
+    <form autocomplete="on">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <div>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" placeholder="digite nome completo" autocomplete="cc-name">
+            </div>
+            <div>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" placeholder="exemplo@.com" autocomplete="email">
+            </div>
+            <div>
+                <label for="itelefone">telefone</label>
+                <input type="tel" name="telefone" id="itelefone" placeholder="(xx) xxxx-xxx" autocomplete="tel">
+            </div>
+            <div>
+                <label for="irg">RG</label>
+                <input type="number" name="rg" id="irg" placeholder="digite seu RG" autocomplete="cc-number">
+            </div>
+
+            <div>
+                <label for="idt-nascimento">Data nascimento</label>
+                <input type="date" name="dt-nascimento" id="idt-nascimento" placeholder="dd/mm/yyyy" autocomplete="date">
+            </div>
+
+            <div>
+                <label for="icomentario">Comentario</label>
+                <textarea name="comentario" id="icomentario" cols="30" rows="10" placeholder="fale sobre voçe"></textarea>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
