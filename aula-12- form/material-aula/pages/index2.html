@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input adicionais</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>inputs adicionais</legend>
+
+            <input type="color" value="#00ff00">
+            <input type="range" min="1" max="5" value="2" autocomplete="">
+            <input type="file">
+
+            
+           
+        </fieldset>
+
+        <fieldset>
+            <legend>seletor unico</legend>
+            <p for="">formação academica</p><br>
+
+            <input type="radio" id="ibasico" name="ensino">
+            <label for="ibasico">ensino basico</label>
+
+            <input type="radio" id="imedio" name="ensino" checked>
+            <label for="imedio">ensino medio</label>
+
+            <input type="radio" id="isuperior" name="ensino">
+            <label for="isuperior">ensino superior</label>
+
+            <select name="cursos" id="cursos">
+                <option value="ex">selecione</option>
+                <optgroup label="office">
+                    <option value="ex">excel</option>
+                    <option value="ex">word</option>
+                    <option value="ex">power point</option>
+                </optgroup>
+
+                <optgroup label="front-end">
+                    <option value="ex">html</option>
+                    <option value="ex">css</option>
+                    <option value="ex">javascript</option>
+                </optgroup>
+            </select>
+        </fieldset><br>
+        <!-- <input type="submit"> ele envia os dados  -->
+        <!-- <input type="submit"> -->
+
+            <fieldset>
+                <legend>seletor multiplo</legend>
+
+                <input type="checkbox" name="excel" id="iexcel">
+                <label for="iexcel">excel</label>
+
+                <input type="checkbox" name="word" id="iword">
+                <label for="">word</label>
+
+                <input type="checkbox" name="power" id="ipower">
+                <label for="ipower">power point</label>
+                </select>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>dados pré-definidos</legend>
+
+                <label for="">profissao</label>
+                <input name="profissao" id="iprofissao" list="profissoes">
+
+                <datalist id="profissoes">
+                    <option value="bombeiro">bombeiro</option>
+                    <option value="astronauta">astronauta</option>
+                </datalist>
+            </fieldset>
+
+            <fieldset>
+                <legend>pessoais</legend>
+
+                <label for="inome"></label>
+                <input type="text" name="nome" id="inome" required maxlength="5" minlength="2">
+                <input type="submit">
+            </fieldset>
+    </form>
+</body>
+</html>
