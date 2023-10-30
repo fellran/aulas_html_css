@@ -1,0 +1,41 @@
+@keyframes muda-cor {
+    0%{
+        color: royalblue;
+    }
+    20%{
+        color: cadetblue;
+    }
+    40%{
+        color: chartreuse;
+    }
+    60%{
+        color: chocolate;
+    }
+    80%{
+        color: cornflowerblue;
+    }
+    100%{
+        color: pink;
+    }    
+}
+
+/* webkit elementos de navegador ::webkit site codepan */
+
+ul, h2{
+    animation-name: muda-cor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 5s; */
+}
+
+#menupc{
+    display: none;
+}
+
+#munuicon{
+    display: block;
+}
+
+#menumobile{
+    display: block;
+}
