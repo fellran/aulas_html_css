@@ -1,5 +1,11 @@
 /* !important prioriza os elementos em si  */
 /* versoes antigas prioridade é quem é declarado em baixo, ou por ultimo */
 #page{
-    background-color: blueviolet !important;
+    background-color: black !important;
+}
+
+.carousel-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: pink;
+    background-color: rgba(0, 0, 0, 0.432);
 }
