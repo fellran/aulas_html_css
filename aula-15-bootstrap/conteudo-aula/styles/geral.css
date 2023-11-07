@@ -1,0 +1,5 @@
+/* !important prioriza os elementos em si  */
+/* versoes antigas prioridade é quem é declarado em baixo, ou por ultimo */
+#page{
+    background-color: blueviolet !important;
+}
