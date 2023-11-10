@@ -22,3 +22,15 @@ header, footer{
 .card button:hover{
     background-color: rgb(245, 151, 167);
 }
+
+#adote{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+form{
+    width: 70%;
+    height: 100%;
+}
