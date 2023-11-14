@@ -3,7 +3,7 @@
     --vermelho: #ba2d2d;
     --vermelho-alaranjado: #f2511b;
     --laranja: #f2861b;
-    --verde-claro: #c7c730;
+    --verde-claro: #c7c7309f;
 }
 /* header */
 header{
@@ -25,7 +25,7 @@ header{
 }
 
 #info-section{
-    width: 450px;
+    width: 550px;
     background-color: var(--verde-claro);
 }
 
@@ -41,12 +41,12 @@ header{
 
 /* section-3 */
 #container-box{
-    height: 300px;
+    height: 450px;
     background-color: var(--preto);
 }
 
 .group-img{
-    width: 250px;
+    width: 350px;
     height: 350px;
     background-color: #ba2d2d;
     background-size: cover;
